@@ -1,0 +1,117 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #020f21;
+    color: #020d28;
+}
+
+header {
+    background: #12033a;
+    padding: 20px 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #1f0341;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+
+header .logo {
+    font-size: 24px;
+    font-weight: bold;
+    transition: .5s;
+}
+
+header .logo:hover  {
+  transform :scale(1.2);
+}
+
+
+nav a {
+    margin-left: 20px;
+    text-decoration: none;
+    color: #ccefd0;
+    font-size: 16px;
+}
+
+nav a:hover {
+    color: #007bff;
+}
+
+.section {
+    padding: 80px 40px;
+    max-width: 1100px;
+    margin: auto;
+}
+
+h1, h2 {
+    margin-bottom: 20px;
+}
+
+footer {
+    text-align: center;
+    background: #222;
+    color: #ddd;
+    padding: 30px;
+    margin-top: 60px;
+}
+
+html, body {
+  height: 100%;
+  margin: 0;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh; /* минимальная высота — весь экран */
+}
+
+.site-footer {
+  margin-top: auto;      /* автоматически прижимает футер к низу */
+  text-align: center;    /* по центру */
+  padding: 10px 0;       /* отступы сверху и снизу */
+  background-color: #f0f0f0; /* фон футера */
+  color: #555;           /* цвет текста */
+  font-size: 14px;
+}
+.section {
+  background-image: url('images/beautiful-sea-morning-blue-hour-twjt7oc9ynomi8zr.jpg'); /* путь к фону */
+  background-size: cover;    /* фон занимает всю область */
+  background-position: center;
+  padding: 20px 0;           /* отступы сверху и снизу */
+}
+
+.main-menu ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;  /* горизонтально по центру */
+  gap: 20px;
+}
+
+.main-menu li a {
+  text-decoration: none;
+  color: #fff;               /* белый текст на фоне */
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+}
+
+.menu-icon {
+  width: 20px;
+  height: 20px;
+  margin-right: 8px;
+}
+
+body {
+  background: linear-gradient(to right, #1492d6, #5333de); /* средний переход цветов */
+  color: white;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+}
+
